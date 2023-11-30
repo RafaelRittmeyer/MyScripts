@@ -11,9 +11,9 @@
 FACT_DIR=/etc/ansible/facts.d
 FACT_REDT=redt.fact
 FACT_ZABBIX=zabbix.fact
-AST_VER=$(cat /etc/asterisk/version)
-CROSSBAR_VER=$(cat /opt/controller/version)
-WEB_VER=$(cat /var/www/html/redt/version)
+AST_VER=$(cat PATH)
+CROSSBAR_VER=$(cat PATH)
+WEB_VER=$(cat PATH)
 ZBXA=/etc/zabbix/zabbix_agentd.conf
 ZBXP=/etc/zabbix/zabbix_proxy.conf
 
