@@ -14,7 +14,7 @@ DST_PATH="/tmp/Exten"
 HELP_MSG="Usage: $0 </path/to/source.csv>
 
 Brief:
-    This script was made to make the extensions configuration easier. 
+    This script was made to make the exten configuration easier. 
     To do that, we use a CSV file, following the structure bellow, to build the SQL files.
     Those SQL file shold be imported (source command) on MySQL's client.
 
