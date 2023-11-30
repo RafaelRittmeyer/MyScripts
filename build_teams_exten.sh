@@ -2,14 +2,15 @@
 
 #######################################
 ### CREATED BY RAFAEL RITTMEYER     ###
-### LAST MODIFICATION 28/04/23      ###
+### CREATION DATE: 14/04/23         ###
+### LAST MODIFICATION 22/09/23      ###
 #######################################
 
 ## VARIABLES LIST ##
 
 OLD_IFS=$IFS
 CSV_FILE="$1"
-DST_PATH="/tmp/Teams"
+DST_PATH="/tmp/teams"
 
 HELP_MSG="Usage: $0 </path/to/source.csv>
 
@@ -35,7 +36,7 @@ Options:
 FINAL_MSG="All done. =) 
 
 Final instructions:
-    Go to the directory $DST_PATH.
+    Go to the directory $DST_PATH
     Invoke MySQL and use the source command to import the EXTEN configuration
 "
 
